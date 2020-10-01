@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login form</title>
+
+    <!-- Favicon -->
+  <link rel="shortcut icon" href="img/bg_1.jpg" type="image/x-icon" />
+
+  <!-- font-awesome css -->
+  <link rel="stylesheet" href="css/font-awesome/css/all.min.css" />
+
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="css/bootsrap/bootstrap.min.css" />
+
+  <!--custom css -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+<body>
+    
+    <div class="container wrapper-bd py-4 my-3">
+
+        <div class="Login-header text-center">
+                <h1>Login Form</h1>
+        </div>
+
+        <div class="p4 bg-form">
+            <form action="#123">
+                <label for="Username"><b>Username</b></label>
+                   <input type="text" id="name" class="form-control" name="name" placeholder="Username">
+                
+       
+                <label for="Password"><b>Password</b></label>
+                   <input type="text" id="password" class="form-control" name="name" placeholder="Password">
+
+                   <p id="error" class="text-center text-danger" style="font-size: 14px;"></p>
+       
+                   <button type="submit" class="form-btn">Login</button>
+       
+                   <label class="py-3">
+                       <input type="checkbox" checked="checked" name="remember"> Remember me
+                     </label>
+       
+                     <a href="sign-up.html">
+                     <button type="button" class="form-btn">
+                       Signup
+                     </button>
+                    </a>
+
+                    <hr>
+       
+                   <button type="button" class="my-3 btn-ctl">cancel</button>
+       
+                   <span class="float-right my-3 f-psw">
+                     Forgot <a href="#" class="pl-1">password</a>
+                   </span>
+       
+               </form>
+       
+        </div>
+    </div>
+
+
+    <!-- Jquery js -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Bootstrap js -->
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+
+  <!-- Custom js -->
+  <script src="js/custom.js"></script>
+</body>
+</html>

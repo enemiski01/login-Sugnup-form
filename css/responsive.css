@@ -1,0 +1,66 @@
+/*Responsive Media Queries*/
+
+
+/* Large devices (Laptops and Desktops) */
+@media (min-width: 1200px) {
+
+    /*ok*/
+
+}
+
+/* Medium devices (Landscape-Tablets and Medium-Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .wrapper-bd {
+        border: 1px solid #999;
+        margin: 0px 40%;
+        margin: 0 auto;
+      }
+
+    form {
+        margin: 20px 15%;
+      }
+
+}
+
+
+
+/* Small devices (portrait-Tablets and Small-Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    form {
+        margin: 20px 10%;
+      }
+
+}
+
+/* Extra Small devices (Landscape Phones and Portrait Tablets) */
+@media (max-width: 767px) {
+
+    form {
+        margin: 20px 10%;
+      }
+  
+}
+
+/*Extra Small devices (Portrait Phones and Smaller Devices)*/
+@media (max-width: 600px) {
+
+    form {
+        margin: 20px 10%;
+      }
+
+}
+
+/*Extra Small devices (Smaller Devices)*/
+@media (max-width: 480px) {
+
+  
+
+}
+
+
+/*Extra Small devices (Smaller Devices)*/
+@media (max-width: 360px) {
+   
+}
